@@ -1,0 +1,13 @@
+name = "Vegan Delight"
+filename = "vegandelight-neoforge-1.21.1-2.0.0-beta4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5d662083be39f33b68a8240f4af2a16f6a6c5b44"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7196142
+project-id = 928290

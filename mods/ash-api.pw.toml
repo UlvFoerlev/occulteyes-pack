@@ -1,0 +1,13 @@
+name = "Ash API"
+filename = "ash_api-neoforge-21.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "9b8dcaa537419680da7673e08e1cd9daa627e793"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6565323
+project-id = 838498

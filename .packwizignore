@@ -1,0 +1,30 @@
+# Per-client preferences and machine-specific state - never sync these
+config/sodium-options.json
+config/sodium-extra-options.json
+config/sodium-extra.properties
+config/sodium-mixins.properties
+config/sodium-fingerprint.json
+config/sodiumdynamiclights-client.toml
+config/iris.properties
+config/iris-excluded.json
+config/entityculling.json
+config/skinlayers.json
+config/borderlesswindow-client.toml
+config/camera-client.toml
+config/ok_zoomer/
+config/xaero/
+config/xaerohud.txt
+config/xaeropatreon.txt
+config/**/*.backup*
+config/**/*.txt.backup*
+
+# Local/editor noise
+.git/
+.gitignore
+*.bak
+
+# Repo docs - not part of the instance
+README.md
+.gitignore
+.packwizignore
+tools/

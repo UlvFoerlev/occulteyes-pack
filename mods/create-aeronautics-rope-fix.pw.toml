@@ -1,0 +1,13 @@
+name = "Create Aeronautics: Rope fix"
+filename = "ropefix-1.5.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "fa2f5ae7952d18dc7119265fdfc47d05d8d46fc7"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8564310
+project-id = 1574291

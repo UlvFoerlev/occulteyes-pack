@@ -1,0 +1,13 @@
+name = "Rechiseled: Chipped"
+filename = "rechiseled_chipped-1.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "77aefe166e5acff2760df30ea56ce7aef30eb899"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5656895
+project-id = 1007578

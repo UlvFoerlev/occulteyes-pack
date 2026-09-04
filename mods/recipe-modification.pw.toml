@@ -1,0 +1,13 @@
+name = "Recipe Modification library"
+filename = "recipe_modification-neoforge-1.21.1-0.1.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d985230f29586d7e5d90dc95c6ef42b15dc07754"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7214826
+project-id = 1345325

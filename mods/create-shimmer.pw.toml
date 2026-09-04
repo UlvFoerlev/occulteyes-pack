@@ -1,0 +1,13 @@
+name = "Create: Shimmer"
+filename = "create-shimmer-1.3.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "68b9c49eace696486520970357f87aa8450ce5de"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8640618
+project-id = 1289504

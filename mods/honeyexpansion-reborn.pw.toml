@@ -1,0 +1,13 @@
+name = "HoneyExpansion Reborn"
+filename = "honeyexpansionreborn-neoforge-1.21.1-1.1.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "8ed59798be2520712724bfbc38898b294e3cd16e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8209953
+project-id = 1567519

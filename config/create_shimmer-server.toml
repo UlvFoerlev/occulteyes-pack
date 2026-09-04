@@ -1,0 +1,99 @@
+#.
+#Parameters and abilities of kinetic mechanisms
+[kinetics]
+	#.
+	#.
+	#Whether Deployers can perform sweep attacks.
+	deployerSweepAttack = true
+
+	#.
+	#Parameters and abilities of recipe processing and fan-based bulk operations
+	[kinetics.recipes]
+		#.
+		#.
+		#Allow fans to process transmutation recipes when placed above transmutation catalysts.
+		#Transmutation catalysts include: shimmer fluids.
+		enableBulkTransmutation = true
+		#.
+		#Allow fans to process glooming recipes when placed above glooming catalyst blocks.
+		#Glooming catalysts include: Twilight Forest's ominous fire block.
+		enableBulkGlooming = true
+
+	#.
+	#Parameters for shimmer-based scepter repair functionality
+	[kinetics.scepter_repair]
+		#.
+		#.
+		#Enable shimmer fluid repairing for Twilight Forest scepters
+		enableScepterRepair = true
+		#.
+		#Shimmer fluid cost per repair operation for Twilight Scepter (in mB)
+		# Default: 500
+		# Range: 1 ~ 1000
+		twilightScepterRepairCost = 500
+		#.
+		#Shimmer fluid cost per repair operation for Lifedrain Scepter (in mB)
+		# Default: 500
+		# Range: 1 ~ 1000
+		lifedrainScepterRepairCost = 500
+		#.
+		#Shimmer fluid cost per repair operation for Zombie Scepter (in mB)
+		# Default: 50
+		# Range: 1 ~ 1000
+		zombieScepterRepairCost = 50
+		#.
+		#Shimmer fluid cost per repair operation for Fortification Scepter (in mB)
+		# Default: 50
+		# Range: 1 ~ 1000
+		fortificationScepterRepairCost = 50
+		#.
+		#Durability points restored per repair operation
+		# Default: 9
+		# Range: 1 ~ 100
+		scepterRepairAmount = 9
+		#.
+		#Enable debug logging for scepter repair operations
+		debugMode = false
+
+	#.
+	#Parameters for Blaze Uncrafter mechanics
+	[kinetics.uncrafter]
+		#.
+		#.
+		#Whether the Blaze Uncrafter is allowed to process items.
+		enableBlazeUncrafter = true
+		#.
+		#The maximum uncrafting level for the Blaze Uncrafter.
+		# Default: 30
+		# Range: 1 ~ 60
+		maxUncraftingLevel = 30
+		#.
+		#Base percentage of ingredients retained at level 0.
+		# Default: 30
+		# Range: 0 ~ 100
+		baseRetentionPercent = 30
+		#.
+		#Maximum percentage of ingredients retained at max level.
+		# Default: 100
+		# Range: 0 ~ 100
+		maxRetentionPercent = 100
+		#.
+		#Whether Twilight Forest uncrafting cost should be used as minimum uncrafting level requirement.
+		tfCostAsMinLevel = true
+		#.
+		#Multiplier for ingredient loss due to item durability damage. 0 disables durability loss.
+		# Default: 1.0
+		# Range: 0.0 ~ 2.0
+		durabilityLossMultiplier = 1.0
+		#.
+		#The amount of liquid a Blaze Uncrafter can hold (mB).
+		#[@cui:RequiresReload:server]
+		# Default: 4000
+		# Range: > 1000
+		blazeUncrafterFluidCapacity = 4000
+		#.
+		#The processing time of Blaze Uncrafter in ticks.
+		#[@cui:RequiresReload:server]
+		# Default: 200
+		# Range: > 20
+		uncraftingTime = 200

@@ -1,0 +1,13 @@
+name = "OccultEyes Create Modpack"
+author = "ulv"
+version = "0.6"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "c0072249c46943dc9163151ce9a456b3bf93d06a5df3b22a1bcd58d322fb1831"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.249"

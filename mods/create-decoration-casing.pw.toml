@@ -1,0 +1,13 @@
+name = "Create Decoration Casing"
+filename = "create_deco_casing-6.404.0-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "47eb371c122f25b644ef911e92fdad392b636f39"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8390642
+project-id = 782293
