@@ -16,7 +16,7 @@ Send them `OccultEyes-Create-Modpack-<version>.mrpack` (~800 KB) and these two s
    **"Pre-launch command"**:
 
    ```
-   "$INST_JAVA" -jar packwiz-installer-bootstrap.jar https://raw.githubusercontent.com/OWNER/REPO/main/pack.toml
+   "$INST_JAVA" -jar packwiz-installer-bootstrap.jar https://raw.githubusercontent.com/UlvFoerlev/occulteyes-pack/main/pack.toml
    ```
 
 Then press Play. The first launch pulls ~230 MB of mods and configs before Minecraft
@@ -38,7 +38,7 @@ when the loader or pack version changes. Override the URL if the repo is named
 differently:
 
 ```sh
-PACK_URL=https://raw.githubusercontent.com/OWNER/REPO/main/pack.toml ./tools/build-mrpack.sh
+PACK_URL=https://raw.githubusercontent.com/UlvFoerlev/occulteyes-pack/main/pack.toml ./tools/build-mrpack.sh
 ```
 
 ## Updating the pack (maintainer)
