@@ -701,12 +701,12 @@ metafile = true
 
 [[files]]
 file = "mods/create-coasters-simulated-additions.pw.toml"
-hash = "5d108c02f17b4e471994da2d2c3a289da0de7b91ee5ebad13de3dad4697f5ec5"
+hash = "86c2d4a63e9438c9a107437c585ac764b748db86db00f48d3ad0470afb7aa2d1"
 metafile = true
 
 [[files]]
 file = "mods/create-coasters-simulated.pw.toml"
-hash = "d5aad6415413aa777ed89ae55912f33c86757321c7c16c8392ce2e1429b920d5"
+hash = "792656064c1a91d6d5ec6add1e707c3c99b20668be099e836d6adff4703f43ae"
 metafile = true
 
 [[files]]
