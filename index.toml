@@ -870,6 +870,11 @@ hash = "b772e8a158c45c21844c4acf10f2031335ccc8d05837532ad01034057221bdbd"
 metafile = true
 
 [[files]]
+file = "mods/geckolib.pw.toml"
+hash = "5a26489b734991c0511abfe43bf9143c935b8483d854a78fecd2e84993fb09cc"
+metafile = true
+
+[[files]]
 file = "mods/gjeb.pw.toml"
 hash = "4e00472517da91d13624bff63e97157681ec2e2b7f96bfcf8612bac04efd6b6a"
 metafile = true
