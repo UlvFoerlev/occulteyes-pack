@@ -955,8 +955,8 @@ hash = "2e9a8daaa0e0cc9cdfb67422e0f928f2db6a1f2984b8636eb2b5091c5fb23e29"
 metafile = true
 
 [[files]]
-file = "mods/occulteyes-tweaks-1.0.2.jar"
-hash = "b371d127fe0adebf5cfc349a7421225ca7541db9759b4dc5df5144a8290057c6"
+file = "mods/occulteyes-tweaks-1.0.3.jar"
+hash = "6bd0205a334ee4d5d8c205b62662ac2d1a06f5a561e61f8efa6547271f36cf34"
 
 [[files]]
 file = "mods/ok-zoomer.pw.toml"
