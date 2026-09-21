@@ -1,6 +1,6 @@
 # OccultEyes Create Modpack
 
-Minecraft 1.21.1 · NeoForge 21.1.249 · 122 mods
+Minecraft 1.21.1 · NeoForge 21.1.249 · 124 mods
 
 Auto-updating [packwiz](https://packwiz.infra.link/) pack. This repo holds **metadata only** —
 mods are downloaded by each client from CurseForge and Modrinth directly.
