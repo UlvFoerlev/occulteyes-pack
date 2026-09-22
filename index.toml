@@ -1034,11 +1034,6 @@ hash = "a1fa121ed5d0207e4cdd3f545d043f68f9a4bb38dcb21278b968fad5e4cefe4a"
 metafile = true
 
 [[files]]
-file = "mods/sablewaves.pw.toml"
-hash = "992a3ef6dd538dbfee3644ba6a0d974cc1f18ccb5c99365cfcfade7d623b98d9"
-metafile = true
-
-[[files]]
 file = "mods/searchables.pw.toml"
 hash = "6c0fac550bb053ee2728144a28819835823dcc6d04ad7897750431fe55100e53"
 metafile = true
