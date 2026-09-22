@@ -745,6 +745,11 @@ hash = "d225f436d245791b859fba618e997ef5741ef5fc5b7ed4e557b5331d52dcb31d"
 metafile = true
 
 [[files]]
+file = "mods/create-high-seas.pw.toml"
+hash = "3ac6f9fb5d056c81a12d2113cc158e05c854ea7badd951c55e68ca5fa98402df"
+metafile = true
+
+[[files]]
 file = "mods/create-power-loader.pw.toml"
 hash = "f1e8b22f412b06eee32c2555922ba188dad9cae76d13dad46fa9080b2e763a5f"
 metafile = true
@@ -1026,6 +1031,11 @@ metafile = true
 [[files]]
 file = "mods/sable.pw.toml"
 hash = "a1fa121ed5d0207e4cdd3f545d043f68f9a4bb38dcb21278b968fad5e4cefe4a"
+metafile = true
+
+[[files]]
+file = "mods/sablewaves.pw.toml"
+hash = "992a3ef6dd538dbfee3644ba6a0d974cc1f18ccb5c99365cfcfade7d623b98d9"
 metafile = true
 
 [[files]]
