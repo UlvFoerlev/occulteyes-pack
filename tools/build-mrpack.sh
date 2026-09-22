@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Builds the bootstrap .mrpack that players import into ATLauncher.
 # It contains no mods - just the loader version, the packwiz updater, and the
-# two jars CurseForge refuses to serve over its API. Everything else is pulled
+# jars CurseForge refuses to serve over its API. Everything else is pulled
 # from pack.toml on first launch.
 set -euo pipefail
 
@@ -18,7 +18,7 @@ NEO=$(grep -m1  '^neoforge'  "$HERE/pack.toml" | cut -d'"' -f2)
 [ -n "$MC" ] && [ -n "$NEO" ] || { echo "could not read versions from pack.toml" >&2; exit 1; }
 
 # Mods CurseForge blocks from API download; players cannot fetch these themselves.
-MANUAL=(create-shimmer-1.3.1.jar buildersjetpackmod-3.1-1.21.1.jar)
+MANUAL=(create-shimmer-1.3.1.jar buildersjetpackmod-3.1-1.21.1.jar highseas-0.2.2.jar)
 
 BOOT="$HERE/tools/packwiz-installer-bootstrap.jar"
 if [ ! -f "$BOOT" ]; then

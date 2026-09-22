@@ -27,9 +27,9 @@ instance folder where they will see it.
 
 ATLauncher supplies its own Java runtime, so nothing else needs installing.
 
-> **Do not post the .mrpack publicly.** It bundles Create: Shimmer and Builders' Jetpack,
-> which CurseForge will not serve over its API and whose licenses do not permit
-> redistribution. Handing it to a specific person is fine; publishing it is not.
+> **Do not post the .mrpack publicly.** It bundles Create: Shimmer, Builders' Jetpack
+> and Create: High Seas, which CurseForge will not serve over its API and whose licenses
+> do not permit redistribution. Handing it to a specific person is fine; publishing it is not.
 
 ### Rebuilding the mrpack
 
@@ -61,4 +61,8 @@ Players get it on their next launch. No zip, no reinstall.
 - `.packwizignore` excludes per-client settings (Sodium, Xaero, Iris, keybinds) so they are
   not overwritten on other people's machines.
 - `mods/occulteyes-tweaks-*.jar` is the one jar hosted here directly; it is our own mod.
+- Jars in `MANUAL` in `tools/build-mrpack.sh` ride along inside the mrpack instead of being
+  downloaded. Their `.pw.toml` still carries the right hash, so packwiz sees the bundled jar
+  already matches and never tries to fetch it. Bumping one of these means updating the jar in
+  the ATLauncher instance, the hash in its `.pw.toml`, the filename in `MANUAL`, and rebuilding.
 - Mod versions are pinned. `packwiz update <mod>` bumps one; `packwiz update --all` bumps everything.
